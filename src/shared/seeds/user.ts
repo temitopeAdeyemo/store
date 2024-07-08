@@ -9,7 +9,7 @@ const superAdmin: ICreateEntityDTO = {
   first_name: environment.defaultUserFirstName,
   last_name: environment.defaultUserLastName,
   role: 'SUPER ADMIN',
-  entity_name: "ITEX",
+  entity_name: "STORE_ADMIN",
 };
 
 const runSeedings = async () => {

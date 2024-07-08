@@ -12,7 +12,7 @@ const superAdmin = {
     first_name: environments_config_1.default.defaultUserFirstName,
     last_name: environments_config_1.default.defaultUserLastName,
     role: 'SUPER ADMIN',
-    entity_name: "ITEX",
+    entity_name: "Store",
 };
 const runSeedings = async () => {
     try {

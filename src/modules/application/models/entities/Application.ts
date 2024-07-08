@@ -38,7 +38,7 @@ export default class Application implements IApplicationDTO {
   @Column({ nullable: false, length: 500 })
   description: string;
 
-  @Column({ nullable: false, default: 'ITEX' })
+  @Column({ nullable: false, default: 'STORE_ADMIN' })
   organization: string;
 
   @Column({ nullable: false })

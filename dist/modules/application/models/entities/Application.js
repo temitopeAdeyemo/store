@@ -34,7 +34,7 @@ __decorate([
     __metadata("design:type", String)
 ], Application.prototype, "description", void 0);
 __decorate([
-    (0, typeorm_1.Column)({ nullable: false, default: 'ITEX' }),
+    (0, typeorm_1.Column)({ nullable: false, default: 'Store' }),
     __metadata("design:type", String)
 ], Application.prototype, "organization", void 0);
 __decorate([

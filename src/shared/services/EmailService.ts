@@ -49,7 +49,7 @@ class EmailService {
   }
 
   async sendWelcomeMail(recipient: Array<string>, name: string) {
-    let subject = 'Welcome To Speak Up!';
+    let subject = 'Welcome To Store!';
     let content = `<h1>Welcome</h1>`
     this.sendEmail(recipient, subject, content);
   }
@@ -68,7 +68,7 @@ class EmailService {
       name: '',
     };
 
-    this.sendSmtpEmail.headers = { 'SpeakUp Service': 'unique-id-1234' };
+    this.sendSmtpEmail.headers = { 'Store Service': 'unique-id-1234' };
     this.sendSmtpEmail.params = {
       parameter: 'My param value',
       subject: 'New Subject',

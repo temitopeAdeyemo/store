@@ -56,7 +56,7 @@ class App {
         this.app.get('/', (request, response) => {
             response.status(200).json({
                 success: true,
-                message: 'Welcome To Itex Store!',
+                message: 'Welcome To Store!',
             });
         });
         this.app.use('/api/v1', routes_1.default);

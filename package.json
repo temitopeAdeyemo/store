@@ -1,8 +1,8 @@
 {
-  "name": "ITEXSTORE",
+  "name": "STORE",
   "version": "1.0.0",
   "main": "app.ts",
-  "repository": "https://itexdevops@dev.azure.com/itexdevops/ITEXSTORE/_git/ITEXSTORE",
+  "repository": "",
   "author": "temiAdeyemo <temitopejulius9@gmail.com>",
   "scripts": {
     "start": "NODE_ENV=production node dist/shared/server.js",
