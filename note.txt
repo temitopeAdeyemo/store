@@ -1,0 +1,5 @@
+Delete file from file folder when ypu delete a version
+
+Delete app Folder and app versions when you delete an application
+
+Increase c=download count upon download.
